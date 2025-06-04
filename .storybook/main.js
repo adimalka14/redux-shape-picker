@@ -9,6 +9,6 @@ module.exports = {
         '@storybook/test-runner',
         'storybook-dark-mode',
     ],
-
     framework: { name: '@storybook/react-vite', options: {} },
+    staticDirs: ['../public'],
 };
