@@ -1,0 +1,18 @@
+.btn {
+  padding: 0.5rem 1rem;
+  border: 2px solid var(--btn-border-color);
+  background-color: transparent;
+  color: var(--text-color);
+  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  width: 5em;
+  height: 3em;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.5em;
+
+  &:hover {
+    background: var(--btn-hover-bg);
+    color: var(--btn-hover-color);
+  }
+}

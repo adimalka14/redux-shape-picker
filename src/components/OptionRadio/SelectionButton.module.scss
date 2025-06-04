@@ -1,0 +1,17 @@
+.selectionButton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  &.selected {
+    background: var(--btn-selected-bg);
+    box-shadow: var(--btn-selected-box-shadow);
+    color: var(--btn-hover-color);
+  }
+
+  &.disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+}

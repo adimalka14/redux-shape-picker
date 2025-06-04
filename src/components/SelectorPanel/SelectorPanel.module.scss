@@ -1,0 +1,33 @@
+.selectorPanel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  background: var(--secondary-color);
+  padding: 1em;
+  gap: 2em;
+  height: 15em;
+  width: 100%;
+
+  &:hover {
+    background-color: var(--secondary-hoover);
+
+  }
+
+  p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+  }
+}
+
+.optionsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.5em;
+  width: 100%;
+}
